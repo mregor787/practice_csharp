@@ -1,6 +1,7 @@
 using System;
 
-namespace Task3 {
+namespace Task3
+{
     public static class InsertionSorter
     {
         public static T[] Sort<T>(T[] array, SortingType sortingType, IComparer<T> comparer)
